@@ -353,7 +353,30 @@ a {
 }
 
 .linha {
-background-color: var(--branco);
-height: 1px;
-margin-top: 10px;
+    background-color: var(--branco);
+    height: 1px;
+    margin-top: 10px;
+}
+
+.bibliotec {
+    display: flex;
+    align-items: center;
+    padding: 25px 3px;
+}
+
+.arroba p {
+    margin-left: -130px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    margin-left: auto;
+}
+
+.links p {
+    width: auto;
+    margin: 0;
+    padding: 0;
 }
