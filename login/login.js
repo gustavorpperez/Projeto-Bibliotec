@@ -1,30 +1,36 @@
-// console.log("Hello world!");
+
+
+// console.log("Hello world!!");
 
 // alert("Hello world!!");
 
-// var nome = "Késsia" !Não vamos usar o var
+// var nome = "Késsia" !não vamos usar o var
 
-// let none = "Késsia"
-// console.log(none)
-//cosnt none = "Késsia"
+// let nome = "Késsia"
+// console.log(nome)
 
 // nome = "Pedro"
 // console.log(nome)
 
-const campoSenha = document.getElementById("Senha")
-const btnSenha = document.querySelector("#mostrar-senha")
+// const nome = "Késsia"
+// console.log(nome)
+
+// nome = "Pedro"
+// console.log(nome)
+
+const campoSenha = document.getElementById("senha");
+const btnSenha = document.querySelector("#mostrar-senha");
 
 
-btnSenha.addEventListener("click", function () {
-
-    // e.preventDefault();
-
-    //  if (campoSenha.type == "passaword") {
+btnSenha.addEventListener("click", function() {
+    
+    // if(campoSenha.type == "password") {
     //     campoSenha.type = "text";
-    // }
+    // } 
     // else {
     //     campoSenha.type = "password";
     // }
 
     campoSenha.type = campoSenha.type == "password" ? "text" : "password"
+    
 })
